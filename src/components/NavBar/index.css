@@ -1,0 +1,21 @@
+/* Write your code here. */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ffffff30;
+  background-color: #9796f0;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.right-elements {
+  display: flex;
+  justify-content: space-between;
+}
+.score-count {
+  margin-right: 10px;
+}
+
+.left-elements {
+  display: flex;
+  align-self: flex-start;
+}

@@ -1,0 +1,59 @@
+/* Write your code here. */
+.score-container {
+  display: flex;
+  border: 1px solid #ffffff30;
+  padding: 10px;
+  margin: 10px;
+  background-color: #ffffff30;
+  justify-content: space-between;
+  width: 700px;
+}
+.status-image {
+  align-self: flex-end;
+}
+.score-value {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  line-height: 1;
+  align-items: center;
+}
+
+.game-status {
+  color: white;
+  font-size: xx-large;
+  font-family: Roboto;
+}
+.play-button {
+  background-color: goldenrod;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 14px;
+}
+.score {
+  color: blue;
+  font-size: 32px;
+  font-weight: bold;
+}
+@media screen and (max-width: 767px) {
+  .score-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 540px;
+  }
+  .status-image {
+    width: 70%;
+    align-self: center;
+  }
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    order: -1;
+  }
+}

@@ -1,0 +1,33 @@
+/* Write your code here. */
+.emoji-button {
+  background-color: #ffffff30;
+  border: 1px solid white;
+  outline: none;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+}
+@media (max-width: 576px) {
+  .emoji-image {
+    width: 40px;
+    height: 40px;
+  }
+  .emoji-button {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 577px) and(max-width: 767px) {
+  .emoji-image {
+    width: 60px;
+    height: 60px;
+  }
+  .emoji-button {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+  }
+}
